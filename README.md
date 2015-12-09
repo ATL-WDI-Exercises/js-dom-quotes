@@ -2,7 +2,7 @@
 ## Set up
 
 1. In exercises or sandbox directory
-2. `git clone https://github.com/ga-dc/js-dom-quotes.git`
+2. `git clone https://github.com/ATL-WDI-Exercises/js-dom-quotes.git`
 3. `cd js-dom-quotes`
 4. `open index.html`
 5. <kbd>command + option + j</kbd>
