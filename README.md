@@ -12,39 +12,10 @@
 ## Exercise - Selecting DOM elements
 
 1. Using relative selection, select the &lt;p&gt; element containing the second Mark Twain quote
-
-```javascript
-document.getElementById('mark-twain-second').childNodes[1];
-
-// <p>​The best way to cheer yourself up is to try to cheer somebody else up.​</p>​
-```
-
 2. Do the same using a query selector
-
-```javascript
-document.getElementById('mark-twain-second').querySelector('p');
-
-// <p>​The best way to cheer yourself up is to try to cheer somebody else up.​</p>​
-```
-
 3. Select all of the elements with class .quote
-```javascript
-document.querySelectorAll('.quote').length;   // 6
-document.querySelectorAll('.quote');
-```
-
 4. Select the 'Quotes About Motivation' heading
-
-```javascript
-document.querySelector('.motivation').getElementsByTagName('h2');
-```
-
 5. Select all of the elements with class .subject
-
-```javascript
-document.querySelectorAll('.subject').length;   // 3
-document.querySelectorAll('.subject');
-```
 
 ### Bonus
 The first section has a class subject. Add a class 'simplicity' from the console
