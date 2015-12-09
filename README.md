@@ -15,7 +15,8 @@
 
 ```javascript
 document.getElementById('mark-twain-second').childNodes[1];
-
+// or
+document.getElementById('mark-twain-second').getElementsByTagName('p')[0];
 // <p>​The best way to cheer yourself up is to try to cheer somebody else up.​</p>​
 ```
 
@@ -23,7 +24,6 @@ document.getElementById('mark-twain-second').childNodes[1];
 
 ```javascript
 document.getElementById('mark-twain-second').querySelector('p');
-
 // <p>​The best way to cheer yourself up is to try to cheer somebody else up.​</p>​
 ```
 
@@ -37,6 +37,8 @@ document.querySelectorAll('.quote');
 
 ```javascript
 document.querySelector('.motivation').getElementsByTagName('h2');
+// or even better:
+document.querySelector('.subject.motivation h2');
 ```
 
 5. Select all of the elements with class .subject
