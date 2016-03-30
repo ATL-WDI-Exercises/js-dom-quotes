@@ -17,6 +17,8 @@
 document.getElementById('mark-twain-second').childNodes[1];
 // or
 document.getElementById('mark-twain-second').getElementsByTagName('p')[0];
+// or
+document.getElementsByTagName('blockquote')[3].children[0];
 // <p>​The best way to cheer yourself up is to try to cheer somebody else up.​</p>​
 ```
 
@@ -28,9 +30,10 @@ document.getElementById('mark-twain-second').querySelector('p');
 ```
 
 3. Select all of the elements with class .quote
+
 ```javascript
-document.querySelectorAll('.quote').length;   // 6
 document.querySelectorAll('.quote');
+document.querySelectorAll('.quote').length;   // 6
 ```
 
 4. Select the 'Quotes About Motivation' heading
@@ -44,9 +47,13 @@ document.querySelector('.subject.motivation h2');
 5. Select all of the elements with class .subject
 
 ```javascript
-document.querySelectorAll('.subject').length;   // 3
 document.querySelectorAll('.subject');
+document.querySelectorAll('.subject').length;   // 3
 ```
 
 ### Bonus
 The first section has a class subject. Add a class 'simplicity' from the console
+
+```javascript
+document.querySelector('.subject').className += ' simplicity';
+```
