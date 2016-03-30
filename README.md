@@ -14,7 +14,7 @@
 1. Using relative selection, select the &lt;p&gt; element containing the second Mark Twain quote
 
 ```javascript
-document.getElementById('mark-twain-second').childNodes[1];
+document.getElementById('mark-twain-second').children[0];
 // or
 document.getElementById('mark-twain-second').getElementsByTagName('p')[0];
 // or
